@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", serif;
+}
+
+.myImages {
+    height: 250px;
+}
+
+.renderCartData {
+    height: 350vh;
+    width: 20%;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.cartimg {
+    height: 40px;
+    width: 40px;
+    margin-left: 1rem;
+}
+
+.logo img{
+    height: 70px;
+}
+
+.navbar{
+    background: lightpink;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-icon{
+    margin-right: 1.4rem;
+    position: relative;
+}
+
+.cart-icon i{
+    font-size: 30px;
+}
+
+.cart-icon sup{
+    position: absolute;
+    background: #fff;
+    font-weight: bold;
+    padding: 0rem .2rem;
+    font-size: 12px;
+    font-family: "Poppins", serif;
+    border-radius: 50%;
+    top: -25%;
+    right: -23%;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.renderdata{
+    background-color: #ccc;
+    width: 80%;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.card{
+    background: #fff;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    width: 380px;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+}
+
+.productTitle{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.card button{
+    width: 85%;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 20px;
+    background-color: lightpink;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: "Poppins", serif;
+}
+
+.cart-styling{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding-right: 20px;
+}

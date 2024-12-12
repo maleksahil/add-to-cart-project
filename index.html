@@ -3,50 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>add to cart project</title>
+    <title>add to cart</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 </head>
 <body>
-    <style>
-
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        .randerData{
-            /* border: 1px solid black;  */
-            display: flex;
-            flex-wrap: wrap;
-            gap: 50px;
-            justify-content: center;
-            background-color: #ccc;
-            padding: 20px;
-        }
-
-        .card{
-            background-color: white;
-            width: 300px;
-            height: auto;
-            /* border: 1px solid black; */
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-            padding: 20px;
-            border-radius: 20px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-           
-        }
-
-        .card img{
-            width: 100%;
-        }
-
-        .card p{
-            margin-top: 30px;
-
-        }
-    </style>
     
-    <div class="randerData"></div>
+
+    <div class="navbar-container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="./rb_705.png" alt="">
+            </div>
+            <div class="cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <sup class="dynamic-count">0</sup>
+            </div>
+        </div>
+    </div>
+
+
+   <div class="main-container">
+    <div class="renderdata"></div>
+    <div class="renderCartData"></div>
+   </div>
 
     <script src="app.js"></script>
 </body>
